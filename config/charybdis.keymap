@@ -15,12 +15,12 @@
 
         layer_0 {
             bindings = <
-&kp ESC         &kp N1  &kp N2  &kp GRAVE  &kp N4     &kp N5          &kp N6         &kp N7     &kp N8     &kp N9   &kp N0     &kp LCTRL
-&kp TAB         &kp Q   &kp W   &kp E      &kp R      &kp T           &kp Y          &kp U      &kp I      &kp O    &kp P      &kp CARET
-&kp LEFT_SHIFT  &kp A   &kp S   &kp D      &kp F      &kp G           &kp H          &kp J      &kp K      &kp L    &kp COLON  &kp DQT
-&kp LEFT_ALT    &kp Z   &kp X   &kp C      &kp V      &kp B           &kp N          &kp M      &kp COMMA  &kp DOT  &kp QMARK  &kp BSLH
-                                &kp ENTER  &kp SPACE  &to 1           &kp PAGE_UP    &kp SPACE  &kp DEL
-                                           &kp N2     &kp NUMBER_3    &kp PAGE_DOWN  &kp LEFT
+&kp ESC         &kp CAPS  &kp LCTRL  &to 1      &kp N4        &kp N5          &kp N6         &kp N7     &kp N8         &kp N9   &kp N0     &kp RIGHT
+&kp TAB         &kp Q     &kp W      &kp E      &kp R         &kp T           &kp Y          &kp U      &kp I          &kp O    &kp P      &kp CARET
+&kp LEFT_SHIFT  &kp A     &kp S      &kp D      &kp F         &kp G           &kp H          &kp J      &kp K          &kp L    &kp COLON  &kp DQT
+&kp LEFT_ALT    &kp Z     &kp X      &kp C      &kp V         &kp B           &kp N          &kp M      &kp COMMA      &kp DOT  &kp QMARK  &kp BSLH
+                                     &kp ENTER  &kp NUMBER_1  &kp GRAVE       &kp PAGE_UP    &kp SPACE  &kp BACKSPACE
+                                                &kp N2        &kp NUMBER_3    &kp PAGE_DOWN  &kp LEFT
             >;
 
             trackball-bindings = <&tmv_coarse>;
